@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/@actalk/inkos"><img src="https://img.shields.io/npm/v/@actalk/inkos.svg?color=cb3837&logo=npm" alt="npm version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg" alt="Node.js"></a>
-  <a href="https://pnpm.io/"><img src="https://img.shields.io/badge/pnpm-%3E%3D9.0.0-orange.svg" alt="pnpm"></a>
   <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.x-3178C6.svg?logo=typescript&logoColor=white" alt="TypeScript"></a>
 </p>
 
@@ -108,6 +108,10 @@ Vocabulary fatigue audit simultaneously checks marker word density — exceeding
 - Supports OpenAI + Anthropic native + all OpenAI-compatible endpoints
 - Reviser supports polish / rewrite / rework modes
 - Genres without numerical systems skip resource ledger generation
+- All commands support `--json` structured output for OpenClaw / external agent integration
+- Auto-detect book-id when project has only one book
+- `inkos update` for self-updating, `inkos init` supports current directory
+- API errors include diagnostic hints, `inkos doctor` includes connectivity test
 
 ---
 

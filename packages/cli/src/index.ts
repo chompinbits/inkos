@@ -23,7 +23,7 @@ const program = new Command();
 program
   .name("inkos")
   .description("InkOS — Multi-agent novel production system")
-  .version("0.3.3");
+  .version("0.3.4");
 
 program.addCommand(initCommand);
 program.addCommand(configCommand);
