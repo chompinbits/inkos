@@ -26,6 +26,10 @@ export { analyzeSensitiveWords, type SensitiveWordResult, type SensitiveWordMatc
 export { detectAIContent, type DetectionResult } from "./agents/detector.js";
 export { analyzeStyle } from "./agents/style-analyzer.js";
 export { analyzeDetectionInsights } from "./agents/detection-insights.js";
+export { validatePostWrite, type PostWriteViolation } from "./agents/post-write-validator.js";
+
+// Utils
+export { searchWeb, fetchUrl, type SearchResult } from "./utils/web-search.js";
 
 // Pipeline
 export { PipelineRunner, type PipelineConfig, type ChapterPipelineResult, type DraftResult, type ReviseResult, type TruthFiles, type BookStatusInfo } from "./pipeline/runner.js";
